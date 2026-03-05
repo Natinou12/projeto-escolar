@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+/* Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Roboto */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0px;
+
+    padding: 0px;
+}
+
+:root {
+    --fontetit: 'Poppins';
+    --fontepdr: 'Roboto';
+}
+
+body {
+    font-family: var(--fontepdr), Arial, Helvetica, sans-serif;
+}
+
+header#titulo {
+    font-family: var(--fontetit), Arial, Helvetica, sans-serif;
+
+    text-align: center;
+}
+
+p {
+    font-size: 2em;
+
+    padding-top: 87px;
+    padding-left: 30px;
+    text-indent: 27px;
+}
+
+
+img.imgala {
+    margin: auto;
+    
+    display: block;
+    
+    width: 160px;
+    height: 160px;
+}
+
+div#imagem {
+    background-image: url(../imagens/alcorao.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: ;
+    
+    color: white;
+}
+
+div#imagem > p {
+    padding-top: 790px;
+
+    display: inline-block;
+    
+    background-color: rgba(0, 0, 0, 0.288);
+}
+
+div#img
