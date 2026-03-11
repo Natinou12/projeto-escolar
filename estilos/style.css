@@ -45,21 +45,54 @@ img.imgala {
     height: 160px;
 }
 
-div#imagem {
+section#img1 {
     background-image: url(../imagens/alcorao.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: ;
+    background-attachment: fixed;
+
+    height: 500px;
+
+    box-shadow: inset 0px 0px 20px black;
+}
+
+section#img1 > p#pimg1 {
+
+    color: white;
+
+    background-color: rgba(0, 0, 0, 0.247);
     
+}
+
+section#img2 {
+    background-image: url(../imagens/niqab.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    height: 500px;
+
+    box-shadow: inset 0px 0px 20px black;
+}
+
+section#img2 > p#pimg2 {
+
+    color: white;
+
+    background-color: rgba(0, 0, 0, 0.247);
+    
+}
+
+footer {
+    background-color: black;
+
     color: white;
 }
 
-div#imagem > p {
-    padding-top: 790px;
+footer > p#rodape {
+    padding-top: 0px;
 
-    display: inline-block;
-    
-    background-color: rgba(0, 0, 0, 0.288);
+    text-align: center;
+
+    font-size: 1.5em;
 }
-
-div#img
