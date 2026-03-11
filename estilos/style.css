@@ -25,6 +25,8 @@ header#titulo {
     font-family: var(--fontetit), Arial, Helvetica, sans-serif;
 
     text-align: center;
+
+    font-size: 2em;
 }
 
 a {
