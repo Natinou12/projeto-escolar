@@ -35,6 +35,10 @@ p {
     text-indent: 27px;
 }
 
+p.norm {
+    padding-bottom: 30px;
+}
+
 
 img.imgala {
     margin: auto;
