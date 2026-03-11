@@ -27,6 +27,12 @@ header#titulo {
     text-align: center;
 }
 
+a {
+    font-weight: bold;
+
+    color: white;
+}
+
 p {
     font-size: 2em;
 
